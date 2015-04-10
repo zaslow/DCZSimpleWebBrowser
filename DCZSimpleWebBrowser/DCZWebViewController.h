@@ -8,8 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface DCZWebViewController : UIViewController
+@interface DCZWebViewController : UIViewController {
+    IBOutlet UIWebView *webView;
+    IBOutlet UITextField *webAddress;
+}
 
+- (IBAction)searchURL:(id)sender;
 
 @end
 

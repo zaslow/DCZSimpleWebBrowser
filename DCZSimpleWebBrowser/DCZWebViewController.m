@@ -14,6 +14,12 @@
 
 @implementation DCZWebViewController
 
+- (IBAction)searchURL:(id)sender {
+    NSURL *URL = [NSURL URLWithString:webAddress.text];
+    NSURLRequest *urlReq = [NSURLRequest requestWithURL:URL];
+    [webView loadRequest:urlReq];
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
