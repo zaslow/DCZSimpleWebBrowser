@@ -6,13 +6,13 @@
 //  Copyright (c) 2015 Zaslow, Dean Clayton. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "DCZWebViewController.h"
 
-@interface ViewController ()
+@interface DCZWebViewController ()
 
 @end
 
-@implementation ViewController
+@implementation DCZWebViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

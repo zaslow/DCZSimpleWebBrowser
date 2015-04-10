@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  ViewController.h
 //  DCZSimpleWebBrowser
 //
 //  Created by Zaslow, Dean Clayton on 4/10/15.
@@ -8,9 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
+@interface DCZWebViewController : UIViewController
 
 
 @end
